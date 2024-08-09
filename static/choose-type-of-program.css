@@ -1,0 +1,201 @@
+.aviquo2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.aviquo-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) 0 var(--padding-34xl);
+}
+.choose-the-type1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-dm-sans);
+}
+.frame-parent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.program-type-selector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 46px 78px var(--padding-32xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.summer-programs1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-dm-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-3xl);
+  background-color: var(--color-gray-200);
+  flex: 1;
+  border-radius: var(--br-2xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 97px;
+  white-space: nowrap;
+}
+.scholarships1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-dm-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.program-list,
+.rectangle-parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-21xl);
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-2xl);
+}
+.program-list {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-6xl);
+}
+.photo-details-child {
+  height: 48px;
+  width: 150px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-gray-200);
+  display: none;
+}
+.competitions1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-dm-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.competition-container,
+.photo-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.photo-details {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 37px var(--padding-base) 39px;
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-2xl);
+  justify-content: flex-start;
+}
+.competition-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 21px;
+}
+.program-category {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 21px;
+  max-width: 100%;
+}
+.resource-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instagram-icon1 {
+  width: 70px;
+  height: 69px;
+  position: relative;
+  object-fit: cover;
+}
+.instagram-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 10px;
+}
+.linkedin-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 45px;
+  min-height: 90px;
+}
+.social-media {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.choose-type-of-program1 {
+  width: 390px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 90, 254, 0.33),
+    rgba(85, 222, 255, 0.11)
+  );
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-42xl) var(--padding-6xl) 139px;
+  box-sizing: border-box;
+  gap: 139px;
+  line-height: normal;
+  letter-spacing: normal;
+}

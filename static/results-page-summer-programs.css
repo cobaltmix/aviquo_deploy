@@ -1,0 +1,439 @@
+.aviquo3 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.program-item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 27px;
+}
+.value1 {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+}
+.x-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search1 {
+  height: 32px;
+  flex: 1;
+  border-radius: var(--radius-full);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) var(--padding-mini) var(--padding-5xs-5)
+    var(--space-400);
+  gap: var(--space-200);
+}
+.slider-icon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.slider-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.bookmark-icon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.program-slider {
+  align-self: stretch;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.program-list1,
+.summer-programs-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.program-list1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 72px;
+}
+.summer-programs-page {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.program-cards-child {
+  height: 62px;
+  width: 326px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.a-i-scholars {
+  width: 127px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.scholarship-card {
+  align-self: stretch;
+  height: 4px;
+  position: relative;
+  border-radius: var(--br-130xl);
+  background-color: var(--color-black);
+  z-index: 1;
+}
+.research-programs,
+.scholarships2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.scholarships2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.research-programs {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 157px;
+}
+.crowdfunding-icon {
+  height: 27px;
+  width: 29px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.program-cards {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-2xs) var(--padding-7xs);
+  box-sizing: border-box;
+  gap: 29px;
+  max-width: 100%;
+}
+.frame-input,
+.frame-parent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-input {
+  width: 100px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 16px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frame-parent5 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  min-width: 157px;
+}
+.frame-input1 {
+  margin: 0;
+  height: 44px;
+  width: 31px;
+}
+.program-cards-inner,
+.program-cards1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+}
+.program-cards1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-2xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.program-cards-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.nyu-applied-research {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.program-cards-child1 {
+  position: absolute;
+  top: 47px;
+  left: 11px;
+  border-radius: var(--br-130xl);
+  background-color: var(--color-black);
+  width: 242px;
+  height: 4px;
+  z-index: 1;
+}
+.lab-items-icon {
+  position: absolute;
+  top: 32px;
+  left: 277px;
+  border-radius: 29px;
+  width: 39px;
+  height: 25px;
+  object-fit: cover;
+  z-index: 1;
+}
+.program-cards-child2,
+.program-cards2 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+}
+.program-cards2 {
+  align-self: stretch;
+  height: 62px;
+  flex-shrink: 0;
+}
+.program-cards-child2 {
+  height: 68px;
+  width: 332px;
+  border: 3px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.need-feedback-on {
+  width: 230px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.program-cards3 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mini);
+  max-width: 100%;
+}
+.cosmos {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xs);
+  background-color: transparent;
+  left: 15px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.boys-nationstate,
+.cosmos,
+.paper-icon {
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+}
+.paper-icon {
+  left: 273px;
+  width: 48px;
+  height: 33px;
+  object-fit: cover;
+}
+.boys-nationstate {
+  left: 15px;
+  display: inline-block;
+  min-width: 100px;
+}
+.nation-state-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100%;
+}
+.parliament-icon {
+  position: absolute;
+  top: 13px;
+  left: 261px;
+  width: 65px;
+  height: 49px;
+  object-fit: cover;
+  z-index: 1;
+}
+.parliament-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 326px;
+  height: 62px;
+}
+.nation-state-items {
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+}
+.crowdfunding-item {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-130xl);
+  background-color: var(--color-black);
+  z-index: 1;
+}
+.crowdfunding-image,
+.nation-state-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.crowdfunding-image {
+  width: 264px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.nation-state-grid {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 5px;
+}
+.lab-item {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-130xl);
+  background-color: var(--color-black);
+}
+.nation-state-grid-parent,
+.program-grid,
+.results-page-summer-programs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nation-state-grid-parent {
+  align-self: stretch;
+  gap: 18px;
+}
+.program-grid,
+.results-page-summer-programs {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.program-grid {
+  align-self: stretch;
+  height: 545px;
+  padding: 0 0 79px;
+  gap: 38.6px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+  overflow: auto;
+}
+.results-page-summer-programs {
+  width: 390px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 90, 254, 0.2),
+    rgba(85, 222, 255, 0.07)
+  );
+  overflow: hidden;
+  padding: var(--padding-42xl) var(--padding-9xl) 0 var(--padding-13xl);
+  gap: 85px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+.value-input {
+  flex: 1;
+  border: none; /* Remove default border */
+  background-color: var(--background-default-default); /* Match background color */
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  line-height: 32px; /* Ensure it aligns with container height */
+  padding: 0 var(--padding-mini); /* Adjust padding to fit design */
+  box-sizing: border-box;
+  outline: none; /* Remove default outline */
+}
+
+.value-input::placeholder {
+  color: var(--color-gray-500); /* Placeholder color */
+}

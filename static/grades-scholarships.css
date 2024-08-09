@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(244, 90, 254, 0.2) 0%, rgba(255, 166, 246, 0.07) 100%);
+    width: 390px;
+    height: 844px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.aviquo {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50.4px;
+    color: #000000;
+    margin-top: 61px;
+}
+
+.choose-grade {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.62px;
+    color: #000000;
+    margin-top: 56px;
+}
+
+.grade-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.grade-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grade-option img {
+    width: 34px; /* Assuming all grade images are 34px wide */
+}
+
+.grade-label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15.62px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 150px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button img {
+    width: 150px; /* Assuming all buttons are 150px wide */
+}
+
+.button-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.23px;
+    color: #000000;
+    margin-top: -20px;
+}
+
+.button-next {
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9.11px;
+    color: #000000;
+    margin-top: 2px;
+}

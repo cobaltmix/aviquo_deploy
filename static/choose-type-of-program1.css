@@ -1,0 +1,249 @@
+.aviquo1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.aviquo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) 0 var(--padding-34xl);
+}
+.choose-the-type {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-dm-sans);
+}
+.frame-section {
+  position: absolute;
+  top: 61px;
+  left: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.screenshot-2024-07-27-at-1253 {
+  position: absolute;
+  top: 446px;
+  left: 116px;
+  width: 27px;
+  height: 25px;
+  object-fit: cover;
+  z-index: 2;
+}
+.instagram {
+  position: absolute;
+  top: 755px;
+  left: 189px;
+  width: 50px;
+  height: 77px;
+  display: none;
+}
+.tiktok {
+  position: absolute;
+  top: 743px;
+  left: 279px;
+  width: 51px;
+  height: 101px;
+}
+.frame-child4 {
+  height: 48px;
+  width: 192px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-gray-200);
+  display: none;
+}
+.summer-programs {
+  width: 128.3px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-exo);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-26xl) var(--padding-sm) 60px;
+  background-color: var(--color-gray-200);
+  align-self: stretch;
+  border-radius: var(--br-2xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.scholarships {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-exo);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 85.6px;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-26xl) var(--padding-sm);
+  background-color: var(--color-gray-200);
+  align-self: stretch;
+  border-radius: var(--br-2xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.screenshot-2024-07-27-at-12531 {
+  height: 26px;
+  width: 34px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.competitions {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-exo);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 1;
+}
+.frame-button,
+.frame-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-sm) var(--padding-6xs);
+  background-color: var(--color-gray-200);
+  align-self: stretch;
+  border-radius: var(--br-2xl);
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.frame-parent2 {
+  position: absolute;
+  top: 366px;
+  left: 99px;
+  width: 192px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.linkedin-icon,
+.screenshot-2024-07-27-at-1252,
+.tiktok-icon {
+  position: absolute;
+  top: 373px;
+  left: 111px;
+  width: 37px;
+  height: 34px;
+  object-fit: cover;
+  z-index: 2;
+}
+.linkedin-icon,
+.tiktok-icon {
+  top: 775px;
+  left: 271px;
+  width: 29px;
+  height: 69px;
+}
+.tiktok-icon {
+  left: 307px;
+}
+.linkedin {
+  height: 101px;
+  width: 51px;
+  position: relative;
+  display: none;
+}
+.instagram-icon {
+  height: 54px;
+  width: 27px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.linkedin-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 24px var(--padding-6xs) 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.youtube {
+  height: 101px;
+  width: 50px;
+  position: relative;
+  display: none;
+}
+.youtube-icon {
+  height: 69px;
+  width: 27px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-parent3,
+.youtube-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.youtube-parent {
+  width: 50px;
+  justify-content: flex-end;
+  padding: var(--padding-13xl) var(--padding-9xs) 0;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.frame-parent3 {
+  position: absolute;
+  top: 743px;
+  left: 235px;
+  width: 141px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.choose-type-of-program {
+  width: 390px;
+  height: 844px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 90, 254, 0.33),
+    rgba(85, 222, 255, 0.11)
+  );
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

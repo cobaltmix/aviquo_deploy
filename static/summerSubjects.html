@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects - Summer Programs</title>
+    <link rel="stylesheet" href="/static/summerSubjects.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="title">aviquo.</div>
+        <div class="subtitle">choose a subject or two you’re interested in!</div>
+
+        <form id="subjectsForm" method="GET" action="/static/grades-summer-programs.html">
+            <div class="checkbox-button">
+                <input type="checkbox" id="math" name="subjects" value="math">
+                <label for="math">
+                    <img src="/static/public/math.svg" alt="Mathematics Icon">
+                    Mathematics
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="engineering" name="subjects" value="engineering">
+                <label for="engineering">
+                    <img src="/static/public/engineering.svg" alt="Engineering Icon">
+                    Engineering
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="computerScience" name="subjects" value="cs">
+                <label for="computerScience">
+                    <img src="/static/public/workstation.svg" alt="Computer Science Icon">
+                    Computer Science
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="research" name="subjects" value="research">
+                <label for="research">
+                    <img src="/static/public/analyze.svg" alt="Research Icon">
+                    Research (med/sci)
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="business" name="subjects" value="business">
+                <label for="business">
+                    <img src="/static/public/crowdfunding.svg" alt="Business Icon">
+                    Business/Finance
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="music" name="subjects" value="music">
+                <label for="music">
+                    <img src="/static/public/music.svg" alt="Music Icon">
+                    Music/Instruments
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="writing" name="subjects" value="writing">
+                <label for="writing">
+                    <img src="/static/public/book-and-pencil.svg" alt="Writing Icon">
+                    Writing/Journalism
+                </label>
+            </div>
+            <div class="checkbox-button">
+                <input type="checkbox" id="socialScience" name="subjects" value="polysci">
+                <label for="socialScience">
+                    <img src="/static/public/courthouse.svg" alt="Social Science Icon">
+                    Pol/Social Science
+                </label>
+            </div>
+
+            <div class="submit-buttons">
+                <button type="button" class="submit-button">go back</button>
+                <button type="submit" class="submit-button">almost there (next...)</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

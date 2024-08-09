@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades - Summer Programs</title>
+    <link rel="stylesheet" href="grades-summer-programs.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">aviquo.</div>
+        <div class="subtitle">choose the grade(s) you will be when you apply<br>
+            and the program cost</div>
+
+        <form id="gradesForm" method="GET" action="/static/results-page-summer-programs.html">
+            <div class="checkbox-button grade-checkbox">
+                <input type="checkbox" id="freshman" name="grades" value="9">
+                <label for="freshman">
+                    <img src="/static/public/circled-9.svg" alt="Freshman Icon">
+                    Freshman
+                </label>
+            </div>
+            <div class="checkbox-button grade-checkbox">
+                <input type="checkbox" id="sophomore" name="grades" value="10">
+                <label for="sophomore">
+                    <img src="/static/public/10-circled-c.svg" alt="Sophomore Icon">
+                    Sophomore
+                </label>
+            </div>
+            <div class="checkbox-button grade-checkbox">
+                <input type="checkbox" id="junior" name="grades" value="11">
+                <label for="junior">
+                    <img src="/static/public/11-circled-c.svg" alt="Junior Icon">
+                    Junior
+                </label>
+            </div>
+            <div class="checkbox-button grade-checkbox">
+                <input type="checkbox" id="senior" name="grades" value="12">
+                <label for="senior">
+                    <img src="/static/public/12-circled-c.svg" alt="Senior Icon">
+                    Senior
+                </label>
+            </div>
+
+            <div class="cost-section">
+                <div class="checkbox-button small">
+                    <input type="checkbox" id="free" name="cost" value="free">
+                    <label for="free" style="background-color: #00ff00;">
+                        free
+                    </label>
+                </div>
+                <div class="checkbox-button small">
+                    <input type="checkbox" id="paid" name="cost" value="paid">
+                    <label for="paid" style="background-color: #ff0000;">
+                        paid
+                    </label>
+                </div>
+            </div>
+            {}
+            <div class="submit-buttons">
+                <button type="button" class="submit-button">go back</button>
+                <button type="submit" class="submit-button" >have productive summer (next...)</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

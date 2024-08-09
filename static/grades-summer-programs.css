@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(244, 90, 254, 0.2) 0%, rgba(85, 222, 255, 0.07) 100%);
+  background-size: cover; /* Ensures the gradient covers the entire viewport */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  background-repeat: no-repeat; /* Prevents background repetition */
+  margin: 0;
+  overflow: auto;
+}
+
+.container {
+  width: 390px;
+  position: relative;
+}
+
+.title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50.4px;
+  margin-top: 61px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.62px;
+  margin-bottom: 40px;
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 48px;
+  margin: 10px auto;
+  border-radius: 24px;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.checkbox-button img {
+  position: absolute;
+  left: 10px;
+}
+
+.checkbox-button:hover {
+  background-color: #f0f0f0;
+}
+
+.checkbox-button input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-button label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  margin: 0;
+}
+
+.checkbox-button input[type="checkbox"]:checked + label {
+  background-color: #dcdcdc;
+  border: 2px solid #000000;
+}
+
+/* Styles specifically for grade-related checkboxes */
+.grade-checkbox {
+  width: 150px;
+  position: relative; /* Needed for absolute positioning of the image */
+  margin: 10px auto;
+}
+
+.grade-checkbox img {
+  position: absolute;
+  left: 15px; /* Adjust this value for better spacing between the icon and text */
+}
+
+.grade-checkbox label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 40px; /* Space between the image and the text */
+  cursor: pointer;
+  margin: 0;
+}
+
+.grade-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.grade-checkbox input[type="checkbox"]:checked + label {
+  background-color: #dcdcdc;
+  border: 2px solid #000000;
+}
+
+.cost-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  content-align: center;
+}
+
+.cost-label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15.62px;
+}
+
+.checkbox-button.small {
+  width: 100px;
+}
+
+.submit-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0;
+  width: 80%;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 48px;
+  border-radius: 24px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 15.62px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+}
+
+.submit-button:hover {
+  background-color: #f0f0f0;
+}
